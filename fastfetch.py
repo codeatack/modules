@@ -3,7 +3,7 @@
 
 # meta developer: @VibeCodermodules
 
-__version__ = (1, 0)
+__version__ = (1, 0, 0)
 
 import asyncio, re, shlex, shutil, subprocess
 from telethon.tl.types import Message, PeerUser, PeerChat, PeerChannel, InputPeerUser, InputPeerChat, InputPeerChannel
