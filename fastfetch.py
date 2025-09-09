@@ -5,7 +5,7 @@
 
 __version__ = (1, 0, 0)
 
-import asyncio, re, shlex, shutil, subprocess
+import asyncio, re, shlex, shutil, subprocess, traceback
 from telethon.tl.types import Message, PeerUser, PeerChat, PeerChannel, InputPeerUser, InputPeerChat, InputPeerChannel
 from .. import loader, utils
 
